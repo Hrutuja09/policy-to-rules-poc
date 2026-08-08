@@ -26,6 +26,25 @@ This proof of concept demonstrates an end-to-end pipeline for converting raw pay
 
 ---
 
+## Setup
+
+1. **Copy the example env file** and add your Anthropic API key:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+2. Open `.env` and set your key:
+
+   ```
+   ANTHROPIC_API_KEY=sk-ant-...
+   ```
+
+3. **Never commit `.env`** — it is listed in `.gitignore` and will not be tracked by Git.  
+   Only `.env.example` (which contains no real secrets) is committed to the repository.
+
+---
+
 ## How to Run
 
 > _Setup and run instructions will be added once the source code is in place._
